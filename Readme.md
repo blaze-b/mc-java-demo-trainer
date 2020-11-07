@@ -1,4 +1,4 @@
-#Java 8 Essential Training
+# Java 8 Essential Training
 
 - Java 11 and the java 8 are the two stable versions
 - Java 11 uses the Type Inference i.e usage of 'var'
