@@ -1,7 +1,7 @@
-# Java 8 Essential Training
+# Java Essential Training
 
-- Java 11 and the java 8 are the two stable versions
-- Java 11 uses the Type Inference i.e usage of 'var'
+- Java 8 and 11 are the two stable versions
+- Java 11 uses the Type Inference i.e. usage of `var`.
 
 ## History
 
@@ -9,7 +9,8 @@
 - Original Name: Oak
 - Tag line: Write once, Run Everywhere
 
----------------------------Image
+![Alt text](images/History.PNG "History of Java")
+![Alt text](images/History2.PNG "History of Java")
 
 ## Principles of JAVA
 
@@ -25,11 +26,11 @@
 - It compiles the bytecode instead of machine language
 - The compiled application is portable between platforms without recompiling(JVM)
 
-------------------------Image
+![Alt text](images/Runtime_Arch.PNG "Runtime Architecture")
 
 ## Java and JavaScript
 
------------------------Image
+![Alt text](images/JavaVsJavaScript.PNG "History of Java")
 
 ## Java features
 
@@ -38,10 +39,10 @@
 Supported on Windows, Linux, OS X and Solaris, Runs all java applications: desktop, browser and server,
 Must be updated to keep up with the security issues, Mobile operating systems have their own runtimes.
 - Java development kit(JDK): It is a no cost from ORACLE, Include tools for the compilation and packaging<br>
-&nbsp;&nbsp;&nbsp;&nbsp; java: runtime<br>
-&nbsp;&nbsp;&nbsp;&nbsp; javac: compiler<br>
-&nbsp;&nbsp;&nbsp;&nbsp; javadoc: docs builder<br>
-&nbsp;&nbsp;&nbsp;&nbsp; jar: archive builder<br>
+  - java: runtime
+  - javac: compile
+  - javadoc: docs builder
+  - jar: archive builder
 
 ## Creating the JAVA classes
 
@@ -53,11 +54,14 @@ Must be updated to keep up with the security issues, Mobile operating systems ha
 
 - Classes start with the uppercase character, class MyClass{}
 - Methods and variables start with the lowercase character.<br>
-void doSomething(){
-}
+````Java
+    void doSomething() {
+    }
+````
 - Constants are always UpperCase
-public static final String FIRST_NAME = "david";
-
+````Java
+    public static final String FIRST_NAME = "david";
+````
 ## Memory management and Garbage collection
 
 - Automatic Memory Management (Memory for objects is allocated automatically)
@@ -68,15 +72,16 @@ public static final String FIRST_NAME = "david";
 ## Reference Expire?
 
 - Variables local to methods or code blocks expire with scope,<br>
-void checkString(){
- String localVar = "Test String";
- System.out.println("Tes"+localVar);
-}
-- We can deference variable with the null keyword,
+
+```Java
+    void checkString() {
+        String localVar = "Test String";
+        System.out.println("Tes" + localVar);
+    }
+```
+- We can defer variable with the null keyword,
 String tempVar = "Test string";
 tempVar = null;
-
-## Java Garbage Collection
 
 
 
