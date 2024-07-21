@@ -9,7 +9,7 @@
 ![Alt text](images/History.PNG "History of Java")
 ![Alt text](images/History2.PNG "History of Java")
 
-## Principles of JAVA
+## Principles
 
 - Simple, Object-oriented, and familiar
 - Robust and secure(Methods, properties and Debugging)
@@ -25,11 +25,11 @@
 
 ![Alt text](images/Runtime_Arch.PNG "Runtime Architecture")
 
-## Java and JavaScript
+## Java v/s JavaScript
 
 ![Alt text](images/JavaVsJavaScript.PNG "History of Java")
 
-## Java features
+## Features
 
 - Java Platform, Micro Edition(ME) (Micro-Controller, sensors and mobile devices)
 - Java Runtime Environment (Java SE Runtime Environment (JRE) includes JVM),
@@ -41,7 +41,7 @@ Must be updated to keep up with the security issues, Mobile operating systems ha
   - javadoc: docs builder
   - jar: archive builder
 
-## Creating the JAVA classes
+## Creating classes
 
 - All codes are defined in classes
 - Classes are defined in the src code files with .java extensions
