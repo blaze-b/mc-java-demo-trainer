@@ -79,10 +79,18 @@ Must be updated to keep up with the security issues, Mobile operating systems ha
         System.out.println("Tes" + localVar);
     }
 ```
+
 - We can defer variable with the null keyword,
 String tempVar = "Test string";
 tempVar = null;
 
+## Servlets
+
+- Install the tomcat version: https://tomcat.apache.org/download-90.cgi
+- After installing the server import it in the intelliJ smart tomcat runner plugin: `D:\dev\software\apache-tomcat-9.0.91`,
+
+  - ![Alt text](images/tomcat-setting.jpg "Setting up the tomcat path")
+  - ![Alt text](images/tomcat-runner-setting.jpg "Setting up the tomcat runner details") 
 
 
 
