@@ -1,8 +1,5 @@
 # Java Essential Training
 
-- Java 8 and 11 are the two stable versions
-- Java 11 uses the Type Inference i.e. usage of `var`.
-
 ## History
 
 - A new portable language
@@ -54,14 +51,17 @@ Must be updated to keep up with the security issues, Mobile operating systems ha
 
 - Classes start with the uppercase character, class MyClass{}
 - Methods and variables start with the lowercase character.<br>
-````Java
+
+```Java
     void doSomething() {
     }
-````
+```
 - Constants are always UpperCase
-````Java
+
+```java
     public static final String FIRST_NAME = "david";
-````
+```
+
 ## Memory management and Garbage collection
 
 - Automatic Memory Management (Memory for objects is allocated automatically)
@@ -73,7 +73,7 @@ Must be updated to keep up with the security issues, Mobile operating systems ha
 
 - Variables local to methods or code blocks expire with scope,<br>
 
-```Java
+```java
     void checkString() {
         String localVar = "Test String";
         System.out.println("Tes" + localVar);
@@ -81,16 +81,22 @@ Must be updated to keep up with the security issues, Mobile operating systems ha
 ```
 
 - We can defer variable with the null keyword,
+
+```java
 String tempVar = "Test string";
 tempVar = null;
+```
 
 ## Servlets
 
 - Install the tomcat version: https://tomcat.apache.org/download-90.cgi
 - After installing the server import it in the intelliJ smart tomcat runner plugin: `D:\dev\software\apache-tomcat-9.0.91`,
 
-  - ![Alt text](images/tomcat-setting.jpg "Setting up the tomcat path")
-  - ![Alt text](images/tomcat-runner-setting.jpg "Setting up the tomcat runner details") 
+  - Setting up the tomcat path
+      ![Alt text](images/tomcat-setting.jpg "Setting up the tomcat path")
+  
+  - Setting up the tomcat runner details
+      ![Alt text](images/tomcat-runner-setting.jpg "Setting up the tomcat runner details") 
 
 
 
