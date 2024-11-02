@@ -1,18 +1,18 @@
-## JAVA Design Patterns
+# JAVA Design Patterns
 
 - Code should be written like poetry
 - Authors of Design patterns are Gang of Four, Erich Gamma, Richard Helm, Ralph Johnson and John Vlissidies in the year
   1994
 
-### Follow Pattern Categories
+## Follow Pattern Categories
 
 - Whenever 'new' is called use - `Creational`
 - Use of class hierarchies and relationships - `Structural`
 - Increase the flexibility in carrying out communication - `Behavioral`
 
-### Better Coding Should bring in easier understandability
+## Better Coding Should bring in easier understandability
 
-### Design first Approach
+## Design first Approach
 
 - Instead of beating around the bush and jumping to coding right away, first analyse the requirements and design the
   solution
@@ -21,19 +21,19 @@
 - Use flow charts, data flow diagrams, time sequence diagrams and all other design tools available to draw and
   understand design
 
-### Successful Software
+## Successful Software
 
 - A successful software in one which is secure, usable, performs well and satisfies all user requirements
 - This can be achieved with correct design and accurate implementation
 
-### Journey of creating Successful Software
+## Journey of creating Successful Software
 
 - On the journey of creating successful software several engineers have faced commonly occurring design issues related
   to memory leak, object creation, classes structuring, components communication and wiring.
 
 - Documented these problems and solutions for other engineers benefit as design patterns
 
-### Design Pattern
+## Design Pattern
 
 - Design pattern is a general repeatable solution to a commonly occurring problem in a software design.
 - It includes some of the best practices adapted by experienced object-oriented software developers.
@@ -42,7 +42,7 @@
   to object creation, object communication, class structuring or anything else
 - It gives a leg-up in creating flexible and maintainable object-oriented systems
 
-### Advantages
+## Advantages
 
 - Makes your life easier by not reinventing the wheel.
 - Use the power of a shared vocabulary
@@ -52,21 +52,21 @@
 - Recognise the patterns in libraries and languages
 - Give you an extra edge for job and promotion
 
-### Antipattern of Software
+## Anti-pattern of Software
 
 - Spaghetti Code
 - Cut-and-Paste Programming
 
 ## Design Patterns are language independent
 
-### Object Inheritance
+## Object Inheritance
 
 - It is a mechanism in which one object acquires all the properties and behaviours of the parent object
 - It allows programmers to create classes that are built upon existing classes, to specify a new implementation to
   maintain the same behaviour to reuse code
 - Inheritance causes issues which coding as changes in the base classes will require more QA testing
 
-### Code reusability
+## Code re-usability
 
 - Is your code dry or wet?
     - DRY - Don't Repeat Yourself is a software development principle, the main aim of which is to reduce repetition of
@@ -83,7 +83,7 @@
             - `I` Interface segregation principle
             - `D` Dependency inversion principle
 
-### Cyclomatic Complexity
+## Cyclomatic Complexity
 
 - Lower the program's cyclomatic complexity, lower the risk to modify and easier to understand
 - Formula - `E-N+2*P`
@@ -91,19 +91,19 @@
     - `N` = number of nodes in the flow graph
     - `P` = number of nodes that have exit points
 
-### Tight Coupling
+## Tight Coupling
 
 - It is when a group of classes is highly dependent on a one another
 - Minor changes in one class creates a ripple effect and causes modification in too many changes
 - Interface helps in decoupling
 
-### Recognise the pattern of problems ans design solutions
+## Recognise the pattern of problems ans design solutions
 
 - Be a software doctor
 - Understand the memory issue
 - Recognise the pattern of problems and design solutions around it
 
-### Design Patterns Categorization
+## Design Patterns Categorization
 
 - What is an Object ?
     - An object consist of:
@@ -145,7 +145,7 @@
                 - Template
                 - Visitor
 
-### Design Patterns used in the Spring Framework
+## Design Patterns used in the Spring Framework
 
 - Singleton Pattern
 - Factory Pattern
@@ -155,7 +155,7 @@
 
 ## Creational Design Pattern
 
-### Singleton Design Pattern
+## Singleton Design Pattern
 
 - The Singleton pattern restricts the instantiation of a class to single object
 - This is used when one object is needed to coordinate the actions across the system
@@ -163,21 +163,21 @@
     - Application needs one and only instance of an object
     - Additionally, lazy initialization and global access are necessary and state of objects needs to be shared
 
-### Prototype Design Pattern
+## Prototype Design Pattern
 
 - It is a creational design pattern and is used when the type of objects to create is determined by a prototypical
   instance, which is cloned to produce new objects.
 - When to use: When application needs to create a number of instances of a class, which has almost same state and when
   there is need to avoid creating objects using new keyword
 
-### Builder Design Pattern
+## Builder Design Pattern
 
 - It hides the complexity of object
 - It encapsulates creating and assembling the parts of a complex object in a separate Builder Object
 - When to use: Applications need to create complex objects of different types in multiple steps and expect a final
   object as outcome
 
-### Factory Design Pattern
+## Factory Design Pattern
 
 - It exposes the object without exposing the creation logic to the client and refer to a newly created using a common
   interface
@@ -187,7 +187,7 @@
 - Used only when we have a super class with multiple subclasses and based on input one of the subclasses is expected
   to be returned
 
-### Abstract Factory Design Pattern
+## Abstract Factory Design Pattern
 
 - It is also called as factory of factories, and it works around a super-factory which creates
   other factories

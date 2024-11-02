@@ -4,17 +4,15 @@
   <modelVersion>4.0.0</modelVersion>
 
   <parent>
-    <groupId>com.mclebtec</groupId>
-    <artifactId>mc-java-essential-training</artifactId>
+    <groupId>com.mclebtec.demo.trainer</groupId>
+    <artifactId>mc-java-demo-trainer</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
 
   <groupId>com.mclebtec.design.patterns</groupId>
   <artifactId>mc-design-patterns</artifactId>
   <packaging>jar</packaging>
-
   <name>mc-designer-pattern</name>
-  <url>http://maven.apache.org</url>
 
   <properties>
     <maven.compiler.source>${java.version}</maven.compiler.source>

@@ -52,14 +52,16 @@ Must be updated to keep up with the security issues, Mobile operating systems ha
 - Classes start with the uppercase character, class MyClass{}
 - Methods and variables start with the lowercase character.<br>
 
-```Java
+```java
     void doSomething() {
     }
 ```
 - Constants are always UpperCase
 
 ```java
+
     public static final String FIRST_NAME = "david";
+
 ```
 
 ## Memory management and Garbage collection
@@ -74,17 +76,21 @@ Must be updated to keep up with the security issues, Mobile operating systems ha
 - Variables local to methods or code blocks expire with scope,<br>
 
 ```java
+
     void checkString() {
         String localVar = "Test String";
         System.out.println("Tes" + localVar);
     }
+    
 ```
 
 - We can defer variable with the null keyword,
 
 ```java
+
 String tempVar = "Test string";
 tempVar = null;
+
 ```
 
 ## Servlets
@@ -101,7 +107,6 @@ tempVar = null;
 
 ## Design Patterns
 
-- For every software architectural processes the design principles plays crucial role in development..
-- [Design patterns](/docs/java-design-pattern.md)
+For every software architectural processes the design principles plays crucial role in development, [Design patterns](/docs/java-design-pattern.md)
 
 
